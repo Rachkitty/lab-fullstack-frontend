@@ -13,3 +13,30 @@ lab-fullstack-frontend/
 ├── backend-api/          # Servidor Node.js + Express (Puerto 3000)
 ├── frontend-bootstrap/   # Cliente 1: HTML5 + Bootstrap 5 + Vanilla JS (Live Server)
 └── frontend-react/       # Cliente 2: SPA React 18+ + Vite + Bootstrap (Puerto 5173)
+
+Guía de Instalación y Ejecución
+Sigue estos pasos para levantar todo el entorno localmente:
+
+1. Clonar el repositorio
+Bash
+git clone <URL_DE_TU_REPOSITORIO>
+cd lab-fullstack-frontend
+2. Iniciar el Backend (backend-api)
+Bash
+cd backend-api
+npm install
+npm run dev
+El servidor iniciará en http://localhost:3000 con nodemon en modo desarrollo.
+
+3. Iniciar el Cliente 1 (frontend-bootstrap)
+Abre el archivo frontend-bootstrap/index.html en VS Code.
+
+Haz clic derecho y selecciona Open with Live Server (se ejecutará en el puerto 5500 aproximadamente).
+
+4. Iniciar el Cliente 2 (frontend-react)
+En una nueva pestaña de la terminal:
+
+Bash
+cd frontend-react
+npm install
+npm run dev
