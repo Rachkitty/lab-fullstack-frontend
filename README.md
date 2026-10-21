@@ -19,7 +19,7 @@ Sigue estos pasos para levantar todo el entorno localmente:
 
 1. Clonar el repositorio
 Bash
-git clone <URL_DE_TU_REPOSITORIO>
+git clone https://github.com/Rachkitty/lab-fullstack-frontend
 cd lab-fullstack-frontend
 2. Iniciar el Backend (backend-api)
 Bash
